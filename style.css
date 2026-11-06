@@ -306,6 +306,26 @@ button{font:inherit;cursor:pointer;border:none;background:none;}
 .footer-links{display:flex;gap:14px;margin-top:6px;}
 .footer-links a{width:36px;height:36px;display:flex;align-items:center;justify-content:center;border-radius:var(--r-sm);border:1px solid var(--border);font-size:1.05rem;color:var(--text-mid);transition:var(--tr);}
 .footer-links a:hover{color:var(--teal-bright);border-color:var(--teal);}
+/* ===================== UNIQUE SMALL TAG ===================== */
+.badge-unique-sm {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-family: var(--ff-head);
+  font-weight: 600;
+  border-radius: 6px;
+  background: rgba(255, 87, 34, 0.1);
+  border: 1px solid rgba(255, 87, 34, 0.3);
+  color: var(--teal-bright);
+}
+
+.badge-unique-sm i {
+  font-size: 0.85rem;
+  color: var(--accent); /* Uses your vibrant orange accent */
+}
+
 
 /* ===================== RESPONSIVE ===================== */
 @media (max-width:900px){
